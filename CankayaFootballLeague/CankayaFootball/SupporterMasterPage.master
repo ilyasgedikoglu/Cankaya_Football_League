@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="SupporterMasterPage.master.cs" Inherits="SupporterMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link href="football-web/web/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="football-web/web/js/jquery.min.js"></script>
+    <!-- Custom Theme files -->
+    <!--theme-style-->
+    <link href="football-web/web/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!--//theme-style-->
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!--fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Passion+One:400,700,900' rel='stylesheet' type='text/css'>
+    <!--//fonts-->
+    <script src="football-web/web/js/responsiveslides.min.js"></script>
+    <script>
+        // You can also use "$(window).load(function() {"
+        $(function () {
+            $("#slider2").responsiveSlides({
+                auto: true,
+                pager: true,
+                speed: 300,
+                namespace: "callbacks",
+            });
+        });
+    </script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <!--header-->
+            <div class="header-bottom-top">
+                <div class="container">
+                    <div class="clearfix"></div>
+                    <div class="header-bottom">
+                        <div class="logo">
+                            <a href="#">
+                                <img src="image/logo.png" width="80px" height="80px" alt=" " /></a>
+                        </div>
+                        <div class="top-nav">
+                            <span class="menu"></span>
+                            <ul>
+                                <li class="active"><a href="SupporterHomePage.aspx" class="scroll">Home</a></li>
+                                <li><a href="SupporterFixture.aspx" class="scroll">Fixture</a></li>
+                                <li><a href="Login.aspx" class="scroll">Log Off</a></li>
+                            </ul>
+                            <!--script-->
+                            <script>
+                                $("span.menu").click(function () {
+                                    $(".top-nav ul").slideToggle(500, function () {
+                                    });
+                                });
+                            </script>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+         
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+
+        </asp:ContentPlaceHolder>
+
+        
+    </form>
+</body>
+</html>

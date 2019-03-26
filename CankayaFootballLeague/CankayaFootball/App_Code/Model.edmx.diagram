@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cde7ddc0d89b4fdcbaba3f91d85cfa7a" Name="Diagram1">
+        <EntityTypeShape EntityType="CankayaFootballLeagueModel.Fixture" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CankayaFootballLeagueModel.Referee" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CankayaFootballLeagueModel.RefereeType" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CankayaFootballLeagueModel.sysdiagram" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CankayaFootballLeagueModel.Team" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CankayaFootballLeagueModel.Admin" Width="1.5" PointX="5.375" PointY="3.75" />
+        <EntityTypeShape EntityType="CankayaFootballLeagueModel.Supporter" Width="1.5" PointX="7.375" PointY="0.75" />
+        <EntityTypeShape EntityType="CankayaFootballLeagueModel.UserType" Width="1.5" PointX="7.375" PointY="5.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
